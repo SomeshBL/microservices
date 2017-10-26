@@ -12,7 +12,7 @@ This repo is intended to quick start with Microservices using `Spring Cloud` and
     
 ## Spring Actuator
 
-Actuator endpoints allow you to monitor and interact with your application. Spring Boot includes a number of built-in endpoints and you can also add your own. For example the health endpoint provides basic application health information. In this demo, Actuator endpoints can be accessed over url http://localhost:18080/health
+Actuator endpoints allow you to monitor and interact with your application. Spring Boot includes a number of built-in endpoints and you can also add your own. For example the health endpoint provides basic application health information. In this demo, Actuator endpoint /health can be accessed over url http://localhost:18080/health
     
 ## Config Server
 
