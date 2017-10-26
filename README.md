@@ -5,8 +5,10 @@ This repo is intended to quick start with Microservices using `Spring Cloud` and
 
 ## Table of Contents
 
-    * [Spring Actuator](#spring-actuator) 
-    * [Config Server](#config-server) 
+   * [Spring Actuator](#spring-actuator)
+   * [Config Server](#config-server) 
+
+
     
 ## Spring Actuator
 
