@@ -16,6 +16,7 @@ Actuator endpoints allow you to monitor and interact with your application. Spri
     
 ## Config Server
 
-The configuration service is a vital component of any microservices architecture. Based on the twelve-factor app methodology, configurations for your microservice applications should be stored in the environment and not in the project.   
+The configuration service is a vital component of any microservices architecture. Based on the twelve-factor app methodology, configurations for your microservice applications should be stored in the environment and not in the project. 
+The properties can be accessed using {application_name}/{profile}/{label}. 
     
     
