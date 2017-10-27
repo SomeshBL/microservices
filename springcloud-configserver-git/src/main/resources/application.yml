@@ -16,7 +16,7 @@ spring:
             #perf:
               #pattern:
               #- "*/perf"
-              #uri: https://github.com/SomeshBL/microservices
+              #uri: https://github.com/SomeshBL/microservices #alternate repository
               #search-paths:
                 #-'station*'
                 #Added for Secondary repository. Access it using http://localhost:8888/s1rates/perf
