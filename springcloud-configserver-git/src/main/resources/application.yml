@@ -1,0 +1,22 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SomeshBL/microservices
+          #username:
+          #password:
+          search-paths:
+          - 'spring-cloudconfig-git' # to find the application.properties file as default
+          - 'spring-cloudconfig-git/station*'
+          #repos:
+            #perf:
+              #pattern:
+              #- "*/perf"
+              #uri: https://github.com/SomeshBL/microservices
+              #search-paths:
+                #-'station*'
+                #Added for Secondary repository. Access it using http://localhost:8888/s1rates/perf
